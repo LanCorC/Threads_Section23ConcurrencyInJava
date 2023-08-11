@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b281770-75fb-4e48-9188-2e6a728f8b7d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cor/lan/MyRunnable.java" afterDir="false" />
+    <list default="true" id="8b281770-75fb-4e48-9188-2e6a728f8b7d" name="Changes" comment="Section 23.393(Concurrency in Java: Runnable and Thread): introduced to Runnable interface, implements Runnable instead of extends Thread, how to pass an anonymous class through Runnable implement via override, introduced to Thread.sleep() and InterruptedException">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cor/lan/AnotherThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cor/lan/AnotherThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cor/lan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cor/lan/Main.java" afterDir="false" />
@@ -69,6 +68,14 @@
       <option name="presentableId" value="Default" />
       <updated>1691560517516</updated>
     </task>
+    <task id="LOCAL-00001" summary="Section 23.393(Concurrency in Java: Runnable and Thread): introduced to Runnable interface, implements Runnable instead of extends Thread, how to pass an anonymous class through Runnable implement via override, introduced to Thread.sleep() and InterruptedException">
+      <created>1691726295653</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691726295653</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -81,5 +88,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Section 23.393(Concurrency in Java: Runnable and Thread): introduced to Runnable interface, implements Runnable instead of extends Thread, how to pass an anonymous class through Runnable implement via override, introduced to Thread.sleep() and InterruptedException" />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 23.393(Concurrency in Java: Runnable and Thread): introduced to Runnable interface, implements Runnable instead of extends Thread, how to pass an anonymous class through Runnable implement via override, introduced to Thread.sleep() and InterruptedException" />
   </component>
 </project>
