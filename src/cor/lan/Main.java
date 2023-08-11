@@ -1,20 +1,24 @@
 package cor.lan;
 
-import static cor.lan.ThreadColor.ANSI_GREEN;
-import static cor.lan.ThreadColor.ANSI_PURPLE;
+import static cor.lan.ThreadColor.*;
 
 public class Main {
     public static void main(String[] args) {
         System.out.println(ANSI_PURPLE + "Hello from the main thread.");
 
         Thread anotherThread = new AnotherThread();
+        anotherThread.setName("== Another Thread ==");
         anotherThread.start();
 
-        new Thread() {
+        new Thread(() -> System.out.println(ANSI_GREEN + "Hello from the anonymous class thread")).start();
+
+        Thread myRunnableThread = new Thread(new MyRunnable() {
+            @Override
             public void run() {
-                System.out.println(ANSI_GREEN + "Hello from the anonymous class thread");
+                System.out.println(ANSI_RED + "Hello from the anonymous class' implementation of run()");
             }
-        }.start();
+        });
+        myRunnableThread.start();
 
         System.out.println("Hello again from the main thread.");
     }
